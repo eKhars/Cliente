@@ -14,7 +14,7 @@ function RegisterForm() {
   return (
     <div className="flex items-center justify-center h-screen bg-gray-900">
       <form onSubmit={onSubmit} className="w-full max-w-sm bg-gray-800 p-8 rounded shadow-md">
-        <h2 className="text-2xl font-bold mb-4 text-white">Crear cuenta</h2>
+        <h2 className="text-2xl font-bold mb-4 text-white">Crear cuenta en conecta</h2>
         <div className="mb-4">
           <label className="block text-white text-sm font-bold mb-2">Nombre:</label>
           <input
