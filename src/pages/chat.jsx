@@ -1,13 +1,18 @@
-import Dashboard from "../components/chat/dashboard.jsx"
-import ChatRoom from "../components/chat/chatRoom.jsx"
+import React from 'react';
+import Dashboard from "../components/chat/dashboard.jsx";
+import ChatRoom from "../components/chat/chatRoom.jsx";
 
-function chat() {
+function Chat() {
   return (
-    <div>
+    <div className="flex h-screen">
+      <div className="w-1/5 bg-gray-800 p-4">
         <Dashboard />
+      </div>
+      <div className="flex-grow bg-gray-900 p-4">
         <ChatRoom />
+      </div>
     </div>
-  )
+  );
 }
 
-export default chat
+export default Chat;
